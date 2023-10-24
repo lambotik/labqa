@@ -1,7 +1,7 @@
 # labqa
 ```git clone https://github.com/lambotik/labqa.git```
    
-```cd English-exercises-AQA```
+```cd labqa```
    
 ```pip3 install -r requirements.txt```
    
