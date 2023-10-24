@@ -1,5 +1,5 @@
 # labqa
-1 ```git clone https://github.com/lambotik/English-exercises-AQA.git```
+1 ```git clone https://github.com/lambotik/labqa.git```
    
 2 ```cd English-exercises-AQA```
    
