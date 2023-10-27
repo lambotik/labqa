@@ -9,6 +9,7 @@ from selenium.webdriver.chrome.options import Options
 @pytest.fixture()
 def driver():
     driver = webdriver.Chrome()
+    options = Options()
     options.add_argument('--headless')
     driver = webdriver.Chrome(options=options)
     driver.maximize_window()
