@@ -8,6 +8,8 @@ from selenium import webdriver
 @pytest.fixture()
 def driver():
     driver = webdriver.Chrome()
+    options.add_argument('--headless')
+    driver = webdriver.Chrome(options=options)
     driver.maximize_window()
     driver.implicitly_wait(10)
     yield driver
